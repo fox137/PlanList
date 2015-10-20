@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#000000" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="编辑"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/ape_btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:background="#00000000"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="保存"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+    </RelativeLayout>
+    
+    <EditText 
+        android:id="@+id/ape_et_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="输入内容..."
+        android:textSize="12sp"
+        android:textColor="#000000"
+        android:gravity="start"
+        />
+
+</LinearLayout>
